@@ -1,0 +1,14 @@
+package DM.Chapter_1.Simple;
+
+/**
+ * @Author: Targue
+ * @Date: 2021/6/9-10:00
+ * @E-mail: 18961568969@163.com
+ * @Description:
+ **/
+public class Squack implements QuackBehavior{
+    @Override
+    public void quack() {
+        System.out.println("Squack");
+    }
+}
